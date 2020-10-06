@@ -1,0 +1,123 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ismael de Jesus",
+      "email": "user@demo.com",
+      "password": "123456"
+    }
+  ],
+  "addresses": [
+    {
+      "id": 1,
+      "userId": 1,
+      "type": "Home",
+      "street": "1060  Post Avenue",
+      "city": "Natchitoches",
+      "state": "LA",
+      "zip": "71457"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "type": "Office",
+      "street": "4518  Wilkinson Court",
+      "city": "Alva",
+      "state": "FL",
+      "zip": "33920"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Fast Food",
+      "color": "#E6F9F5",
+      "image": "https://i.imgur.com/8yRIizY.png"
+    },
+    {
+      "id": 2,
+      "title": "Drinks",
+      "color": "#FCF1EA",
+      "image": "https://i.imgur.com/lrzIiKM.png"
+    },
+    {
+      "id": 3,
+      "title": "Candies",
+      "color": "#EDECFF",
+      "image": "https://i.imgur.com/mxhsiFh.png"
+    },
+    {
+      "id": 4,
+      "title": "Ice Cream",
+      "color": "#b9e4fb",
+      "image": "https://i.imgur.com/dsYj7ir.png"
+    },
+    {
+      "id": 5,
+      "title": "Mexican Food",
+      "color": "#fac4a8",
+      "image": "https://i.imgur.com/ZkDGbVl.png"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "title": "Pizza",
+      "price": 5,
+      "image": "https://i.imgur.com/uj8k9E7.png",
+      "backgroundColor": "#FF5300",
+      "description": "Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.) which is then baked at a high temperature, traditionally in a wood-fired oven."
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "title": "Hamburger",
+      "price": 10,
+      "image": "https://i.imgur.com/3WRfBdD.png",
+      "backgroundColor": "#E49D49",
+      "description": "Hamburger is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled."
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "title": "Hot Dog",
+      "price": 12,
+      "image": "https://i.imgur.com/SDjhfkx.png",
+      "backgroundColor": "#FCD147",
+      "description": "Hot Dog is a grilled or steamed food where a sausage is served in the slit of a partially sliced bun."
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "title": "Milkshake",
+      "price": 5,
+      "image": "https://i.imgur.com/ODzRT4m.png",
+      "backgroundColor": "#D7976C",
+      "description": "Milkshake is a drink that is usually made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet, cold mixture."
+    },
+    {
+      "id": 5,
+      "categoryId": 3,
+      "title": "Popcorn",
+      "price": 3,
+      "image": "https://i.imgur.com/qGEMKKQ.png",
+      "backgroundColor": "#D7C7B4",
+      "description": "Popcorn is a variety of corn kernel which expands and puffs up when heated; the same names are also used to refer to the foodstuff produced by the expansion."
+    }
+  ],
+  "recommended": [
+    {
+      "id": 1,
+      "productId": 3
+    },
+    {
+      "id": 2,
+      "productId": 4
+    },
+    {
+      "id": 3,
+      "productId": 5
+    }
+  ]
+}
