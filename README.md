@@ -30,6 +30,10 @@
 - React Native Skeleton Content
 - Others React Native libs.
 
+## :man: Thanks
+
+- [Sajon](https://dribbble.com/sajon007) for his app design.
+
 ## :man: Contributors
 
 - [@maeldz](https://github.com/maeldz)
