@@ -40,7 +40,7 @@ import {
 
 const Cart: React.FC = () => {
   const { params } = useRoute<RouteProp<ParamList, "Cart">>();
-  const { navigate } = useNavigation();
+  const { navigate, canGoBack } = useNavigation();
 
   const { colors } = useContext(ThemeContext);
 

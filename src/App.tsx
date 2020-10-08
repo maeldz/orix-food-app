@@ -24,8 +24,9 @@ function App() {
         await Updates.reloadAsync();
       }
     }
-
-    updateApp();
+    if (!__DEV__) {
+      updateApp();
+    }
   }, []);
 
   LogBox.ignoreLogs(["No native splash", "useNativeDriver"]);
